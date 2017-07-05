@@ -27,6 +27,7 @@
     <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>f94c814a</NuGetPackageImportStamp>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -1910,6 +1911,70 @@
     <Content Include="Themes\DefaultClean\Content\images\progress-step-active.gif" />
     <Content Include="Themes\DefaultClean\Content\images\progress-step-inactive.gif" />
     <Content Include="Themes\DefaultClean\Content\styles.css" />
+    <Content Include="Themes\NopWired\Content\bootstrap.min.css" />
+    <Content Include="Themes\NopWired\Content\ColorScheme\black.css" />
+    <Content Include="Themes\NopWired\Content\ie6.css" />
+    <Content Include="Themes\NopWired\Content\ie7.css" />
+    <Content Include="Themes\NopWired\Content\images\ajax_loader_large.gif" />
+    <Content Include="Themes\NopWired\Content\images\ajax_loader_small.gif" />
+    <Content Include="Themes\NopWired\Content\images\arrow-up.png" />
+    <Content Include="Themes\NopWired\Content\images\bbeditor-button-bg.gif" />
+    <Content Include="Themes\NopWired\Content\images\bkg_add-to.gif" />
+    <Content Include="Themes\NopWired\Content\images\bkg_cart-totals.gif" />
+    <Content Include="Themes\NopWired\Content\images\bkg_subtotal.gif" />
+    <Content Include="Themes\NopWired\Content\images\bkg_tabs.gif" />
+    <Content Include="Themes\NopWired\Content\images\bkg_toolbar.gif" />
+    <Content Include="Themes\NopWired\Content\images\block_bg_bottom.gif" />
+    <Content Include="Themes\NopWired\Content\images\block_bg_repeat.gif" />
+    <Content Include="Themes\NopWired\Content\images\block_title_alt.gif" />
+    <Content Include="Themes\NopWired\Content\images\bullet-left.gif" />
+    <Content Include="Themes\NopWired\Content\images\bullet-right.gif" />
+    <Content Include="Themes\NopWired\Content\images\buttons\next-horizontal.png" />
+    <Content Include="Themes\NopWired\Content\images\buttons\prev-horizontal.png" />
+    <Content Include="Themes\NopWired\Content\images\buttons\subscribe_btn.gif" />
+    <Content Include="Themes\NopWired\Content\images\creditcards.gif" />
+    <Content Include="Themes\NopWired\Content\images\download-sample-bg.gif" />
+    <Content Include="Themes\NopWired\Content\images\forum-footer-bg.gif" />
+    <Content Include="Themes\NopWired\Content\images\forum-header-bg.gif" />
+    <Content Include="Themes\NopWired\Content\images\header-links-ico.jpg" />
+    <Content Include="Themes\NopWired\Content\images\ico-arrow-r.gif" />
+    <Content Include="Themes\NopWired\Content\images\ico-close-notification-bar.png" />
+    <Content Include="Themes\NopWired\Content\images\ico-delete.gif" />
+    <Content Include="Themes\NopWired\Content\images\ico-edit.gif" />
+    <Content Include="Themes\NopWired\Content\images\ico-filter.png" />
+    <Content Include="Themes\NopWired\Content\images\ico-forum-post-add.gif" />
+    <Content Include="Themes\NopWired\Content\images\ico-forum-post-high.gif" />
+    <Content Include="Themes\NopWired\Content\images\ico-forum-post.gif" />
+    <Content Include="Themes\NopWired\Content\images\ico-forum-watch.gif" />
+    <Content Include="Themes\NopWired\Content\images\ico-forum.gif" />
+    <Content Include="Themes\NopWired\Content\images\ico-move-topic.gif" />
+    <Content Include="Themes\NopWired\Content\images\ico-pm.png" />
+    <Content Include="Themes\NopWired\Content\images\ico-rss.gif" />
+    <Content Include="Themes\NopWired\Content\images\ico-search.png" />
+    <Content Include="Themes\NopWired\Content\images\logo.png" />
+    <Content Include="Themes\NopWired\Content\images\menu_bg.gif" />
+    <Content Include="Themes\NopWired\Content\images\mobile-menu-collapse.png" />
+    <Content Include="Themes\NopWired\Content\images\mobile-menu-expand.png" />
+    <Content Include="Themes\NopWired\Content\images\progress-step-active.gif" />
+    <Content Include="Themes\NopWired\Content\images\progress-step-inactive.gif" />
+    <Content Include="Themes\NopWired\Content\images\star-x-active.png" />
+    <Content Include="Themes\NopWired\Content\images\star-x-inactive.png" />
+    <Content Include="Themes\NopWired\Content\images\subscribe_bg.png" />
+    <Content Include="Themes\NopWired\Content\images\subscribe_btn.gif" />
+    <Content Include="Themes\NopWired\Content\images\top-menu-background.png" />
+    <Content Include="Themes\NopWired\Content\images\top-menu-divider.png" />
+    <Content Include="Themes\NopWired\Content\images\top-menu-list-image-hover.png" />
+    <Content Include="Themes\NopWired\Content\images\top-menu-list-image.png" />
+    <Content Include="Themes\NopWired\Content\images\top-menu-triangle.png" />
+    <Content Include="Themes\NopWired\Content\images\totop.png" />
+    <Content Include="Themes\NopWired\Content\js\bootstrap.min.js" />
+    <Content Include="Themes\NopWired\Content\js\hoverIntent.js" />
+    <Content Include="Themes\NopWired\Content\js\jquery.ui.totop.js" />
+    <Content Include="Themes\NopWired\Content\js\owl.carousel.min.js" />
+    <Content Include="Themes\NopWired\Content\owl.carousel.css" />
+    <Content Include="Themes\NopWired\Content\responsive.css" />
+    <Content Include="Themes\NopWired\Content\styles.css" />
+    <Content Include="Themes\NopWired\preview.png" />
     <Content Include="Themes\print.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -1953,6 +2018,54 @@
     <Content Include="Views\Customer\_CustomerAttributes.cshtml" />
     <Content Include="Views\Shared\_AddressAttributes.cshtml" />
     <Content Include="Views\Product\_RentalInfo.cshtml" />
+    <Content Include="Themes\NopWired\Content\images\Thumbs.db" />
+    <Content Include="Themes\NopWired\theme.config" />
+    <Content Include="Themes\NopWired\Views\Catalog\CategoryNavigation - Copy.cshtml" />
+    <Content Include="Themes\NopWired\Views\Catalog\CategoryNavigation.cshtml" />
+    <Content Include="Themes\NopWired\Views\Catalog\CategoryTemplate.ProductsInGridOrLines.cshtml" />
+    <Content Include="Themes\NopWired\Views\Catalog\ManufacturerTemplate.ProductsInGridOrLines.cshtml" />
+    <Content Include="Themes\NopWired\Views\Catalog\ProductsByTag.cshtml" />
+    <Content Include="Themes\NopWired\Views\Catalog\Search.cshtml" />
+    <Content Include="Themes\NopWired\Views\Catalog\SearchBox.cshtml" />
+    <Content Include="Themes\NopWired\Views\Catalog\TopMenu.cshtml" />
+    <Content Include="Themes\NopWired\Views\Catalog\Vendor.cshtml" />
+    <Content Include="Themes\NopWired\Views\Common\Footer.cshtml" />
+    <Content Include="Themes\NopWired\Views\Common\HeaderLinks.cshtml" />
+    <Content Include="Themes\NopWired\Views\Customer\Login.cshtml" />
+    <Content Include="Themes\NopWired\Views\Customer\Register.cshtml" />
+    <Content Include="Themes\NopWired\Views\Home\Index.cshtml" />
+    <Content Include="Themes\NopWired\Views\Newsletter\NewsletterBox.cshtml" />
+    <Content Include="Themes\NopWired\Views\Product\CompareProducts.cshtml" />
+    <Content Include="Themes\NopWired\Views\Product\HomepageProducts.cshtml" />
+    <Content Include="Themes\NopWired\Views\Product\ProductTemplate.Grouped.cshtml" />
+    <Content Include="Themes\NopWired\Views\Product\ProductTemplate.Simple.cshtml" />
+    <Content Include="Themes\NopWired\Views\Product\RecentlyAddedProducts.cshtml" />
+    <Content Include="Themes\NopWired\Views\Product\RecentlyViewedProducts.cshtml" />
+    <Content Include="Themes\NopWired\Views\Product\RecentlyViewedProductsBlock.cshtml" />
+    <Content Include="Themes\NopWired\Views\Product\RelatedProducts.cshtml" />
+    <Content Include="Themes\NopWired\Views\Product\_AddToCart.cshtml" />
+    <Content Include="Themes\NopWired\Views\Product\_CompareProductsButton.cshtml" />
+    <Content Include="Themes\NopWired\Views\Product\_ProductAttributes.cshtml" />
+    <Content Include="Themes\NopWired\Views\Product\_ProductDetailsPictures.cshtml" />
+    <Content Include="Themes\NopWired\Views\Shared\Head.cshtml" />
+    <Content Include="Themes\NopWired\Views\Shared\Header.cshtml" />
+    <Content Include="Themes\NopWired\Views\Shared\_ColumnsOne.cshtml" />
+    <Content Include="Themes\NopWired\Views\Shared\_ColumnsThree.cshtml" />
+    <Content Include="Themes\NopWired\Views\Shared\_ColumnsTwo.cshtml" />
+    <Content Include="Themes\NopWired\Views\Shared\_ColumnsTwoProduct - Copy.cshtml" />
+    <Content Include="Themes\NopWired\Views\Shared\_ColumnsTwoProduct.cshtml" />
+    <Content Include="Themes\NopWired\Views\Shared\_HomeProductBox.cshtml" />
+    <Content Include="Themes\NopWired\Views\Shared\_ProductBox.cshtml" />
+    <Content Include="Themes\NopWired\Views\Shared\_RelatedProductBox.cshtml" />
+    <Content Include="Themes\NopWired\Views\Shared\_Root.cshtml" />
+    <Content Include="Themes\NopWired\Views\Shared\_Root.Head.cshtml" />
+    <Content Include="Themes\NopWired\Views\ShoppingCart\EstimateShipping.cshtml" />
+    <Content Include="Themes\NopWired\Views\ShoppingCart\FlyoutShoppingCart.cshtml" />
+    <Content Include="Themes\NopWired\Views\ShoppingCart\OrderSummary.cshtml" />
+    <Content Include="Themes\NopWired\Views\ShoppingCart\Wishlist.cshtml" />
+    <Content Include="Themes\NopWired\Views\ShoppingCart\_DiscountBox.cshtml" />
+    <Content Include="Themes\NopWired\Views\ShoppingCart\_GiftCardBox.cshtml" />
+    <Content Include="Themes\NopWired\Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Plugins\bin\" />
