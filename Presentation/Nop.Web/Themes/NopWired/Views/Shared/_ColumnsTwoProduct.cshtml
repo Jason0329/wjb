@@ -1,0 +1,212 @@
+﻿@{
+    Layout = "~/Views/Shared/_Root.cshtml";
+}
+@{
+    //current category ID
+    int currentCategoryId = 0;
+    if (Url.RequestContext.RouteData.Values["controller"].ToString().Equals("catalog", StringComparison.InvariantCultureIgnoreCase) &&
+        Url.RequestContext.RouteData.Values["action"].ToString().Equals("category", StringComparison.InvariantCultureIgnoreCase))
+    {
+        currentCategoryId = Convert.ToInt32(Url.RequestContext.RouteData.Values["categoryId"].ToString());
+    }
+
+
+    //current manufacturer ID
+    int currentManufacturerId = 0;
+    if (Url.RequestContext.RouteData.Values["controller"].ToString().Equals("catalog", StringComparison.InvariantCultureIgnoreCase) &&
+        Url.RequestContext.RouteData.Values["action"].ToString().Equals("manufacturer", StringComparison.InvariantCultureIgnoreCase))
+    {
+        currentManufacturerId = Convert.ToInt32(Url.RequestContext.RouteData.Values["manufacturerId"].ToString());
+    }
+
+
+    //current product ID
+    int currentProductId = 0;
+    if (Url.RequestContext.RouteData.Values["controller"].ToString().Equals("product", StringComparison.InvariantCultureIgnoreCase) &&
+        Url.RequestContext.RouteData.Values["action"].ToString().Equals("productdetails", StringComparison.InvariantCultureIgnoreCase))
+    {
+        currentProductId = Convert.ToInt32(Url.RequestContext.RouteData.Values["productId"].ToString());
+    }
+}
+@if (IsSectionDefined("breadcrumb"))
+{
+    @RenderSection("breadcrumb")
+}
+<div class="side-2">
+<div class="block block-category-navigation">
+        <div class="title">
+            <strong>傳動元件事業部</strong>
+        </div>
+        <div class="listbox">
+            <ul class="list">
+   
+            
+    <li class="inactive">
+        <a href="/%E7%9B%B4%E7%B7%9A%E8%BB%B8%E6%89%BF">直線軸承
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E7%9B%B4%E7%B7%9A%E8%BB%B8%E6%89%BF%E5%B0%88%E7%94%A8%E7%B2%BE%E5%AF%86%E8%BB%B8%E5%BF%83">直線軸承專用精密軸心
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/br%E8%87%AA%E6%BD%A4%E5%BC%8F%E7%B7%9A%E6%80%A7%E6%BB%91%E8%BB%8C">BR自潤式線性滑軌
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E5%BE%AE%E5%B0%8F%E7%B7%9A%E6%80%A7%E6%BB%91%E8%BB%8C">微小線性滑軌
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E8%BB%B8%E5%BF%83%E5%BC%8F%E6%BB%91%E8%BB%8C">軸心式滑軌
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E6%BB%BE%E7%8F%A0%E8%9E%BA%E6%A1%BF">滾珠螺桿
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E6%BB%BE%E7%8F%A0%E8%9E%BA%E6%A1%BF%E6%94%AF%E6%92%90%E5%BA%A7">滾珠螺桿支撐座
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E8%81%AF%E8%BB%B8%E5%99%A8">聯軸器
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E5%BE%AE%E5%B0%8F%E5%9E%8B%E8%A2%96%E7%8F%8D%E8%BB%B8%E6%89%BF">微小型(袖珍)軸承
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E9%87%9D%E7%8B%80%E8%BB%B8%E6%89%BF">針狀軸承
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E9%80%A3%E5%BA%A7%E8%BB%B8%E6%89%BF">連座軸承
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E5%96%AE%E5%90%91%E8%BB%B8%E6%89%BF">單向軸承
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E9%AD%9A%E7%9C%BC%E8%BB%B8%E6%89%BF%E7%B8%B1%E6%A1%BF%E8%BB%B8%E6%89%BF">魚眼軸承/縱桿軸承
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E9%8A%85%E8%87%AA%E6%BD%A4%E8%BB%B8%E6%89%BF">(銅)自潤軸承
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E8%BB%B8%E6%89%BF%E5%A5%97%E9%8E%96%E5%AE%9A%E8%9E%BA%E5%B8%BD">軸承套/鎖定螺帽
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E5%85%8D%E9%91%91%E5%BC%8F%E8%A5%AF%E5%A5%97">免鑑式襯套
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E6%89%AD%E5%8A%9B%E9%99%90%E5%88%B6%E5%99%A8">扭力限制器
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E8%90%AC%E5%90%91%E6%8E%A5%E9%A0%AD">萬向接頭
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E6%BB%91%E8%BB%8C%E8%9E%BA%E6%A1%BF%E9%98%B2%E5%A1%B5%E5%A5%97">滑軌、螺桿防塵套
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E9%9B%BB%E7%BA%9C%E4%BF%9D%E8%AD%B7%E9%8D%8A%E6%A2%9D%E6%8B%96%E9%8D%8A">電纜保護鍊條(拖鍊)
+        </a>
+
+    </li>
+            
+
+   
+            </ul>
+        </div>
+    </div>
+
+     <div class="block block-category-navigation">
+        <div class="title">
+            <strong>特殊軸承生產製造</strong>
+        </div>
+        <div class="listbox">
+            <ul class="list">
+   
+  
+            
+    <li class="inactive">
+        <a href="/%E7%B2%BE%E5%AF%86%E9%99%B6%E7%93%B7%E8%BB%B8%E6%89%BF">精密陶瓷軸承
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E7%B2%BE%E5%AF%86%E9%99%B6%E7%93%B7%E7%90%83%E7%8F%A0">精密陶瓷球(珠)
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E5%B7%A5%E7%A8%8B%E5%A1%91%E8%86%A0%E8%BB%B8%E6%89%BF">工程塑膠軸承
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E9%8B%BC%E9%99%B6%E6%B7%B7%E5%90%88%E8%BB%B8%E6%89%BF">鋼陶混合軸承
+        </a>
+
+    </li>
+    <li class="inactive">
+        <a href="/%E8%80%90%E9%AB%98%E6%BA%AB%E8%BB%B8%E6%89%BF">耐高溫軸承
+        </a>
+
+    </li>
+            
+
+   
+            </ul>
+        </div>
+    </div>
+
+    @if (IsSectionDefined("left"))
+    {
+        @RenderSection("left")
+    }
+    else
+    {
+        @Html.Widget("left_side_column_before")
+        if (IsSectionDefined("relatedproduct"))
+        {
+            @RenderSection("relatedproduct")
+        }
+        
+        @Html.Action("RecentlyViewedProductsBlock", "Product", new { productThumbPictureSize = 32 })
+        @Html.Widget("left_side_column_after")
+    }
+</div>
+<div class="center-2">
+    @Html.Widget("main_column_before")
+    @RenderBody()
+    @Html.Widget("main_column_after")
+</div>
