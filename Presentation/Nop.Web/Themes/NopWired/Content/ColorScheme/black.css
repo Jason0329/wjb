@@ -1,5 +1,5 @@
 ﻿a:hover, .cms-links li.welcome, .header-menu .top-menu li a.hover {
-    color: #f88613;
+    color: #b60207;
 }
 
 .topic-html-content-body a, .topic-page .page-body a, .news-items .read-more, #productcollateraltab .ui-widget-content a,
@@ -11,7 +11,7 @@
 .customer-info-page .add-more-external-records a, .username-available-status, .return-request-list-page .request-item a,
 .tier-prices .prices-list .item-price, .product-review-helpfulness .vote, .private-message-view-page .view-message a,
 .forum-topic-page .post-content .post-body a, .profile-page .user-last-posts .topic-body a, .csharpcode .rem, #toTop:active, #toTop:focus {
-    color: #f88613;
+    color: #b60207;
 }
 
 .button-1 {

@@ -1084,7 +1084,7 @@ td {
     padding: 10px 8px 8px 10px;
     text-transform: uppercase;
     color: #fff;
-    background: #1f1f1f url(images/block_title_alt.gif) no-repeat top left;
+    background: #a30508 ;
     background-size: cover;
 }
 
@@ -1097,7 +1097,7 @@ td {
     padding: 5px 10px 10px;
     line-height: 14px;
     margin: 0;
-    background:url(images/block_bg_bottom.gif) no-repeat bottom left;
+    background:#f6f6f6;
     background-size: contain;
 }
 
@@ -1112,8 +1112,9 @@ td {
 .block a {
     color: #444;
     font-size: 1.1em;
-    font-weight: 400;
+    font-weight: 800;
     text-decoration: none;
+    font-family: '微軟正黑體';
 }
 
     .block a:hover {
@@ -2905,8 +2906,9 @@ td {
         }
 
     .category-page .category-description, .manufacturer-page .manufacturer-description, .vendor-page .vendor-description {
-        color: #555;
-        font-size: 1.1em;
+        color: #000;
+        font-family:'微軟正黑體';
+        font-size: 12px;
     }
 
 .sub-category-grid, .manufacturer-grid {
