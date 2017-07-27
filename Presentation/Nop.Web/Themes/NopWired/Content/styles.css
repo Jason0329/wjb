@@ -6036,5 +6036,22 @@ pre {
     opacity: 0;
 }
 
-.align_right{position: relative; float: right; width: 50%; height: 340px;}@media (max-width: 767px){.align_right{width: 100%;height: 380px; }}
-.align_left{position: relative; float: left; width: 50%; height: 340px;}@media (max-width: 767px){.align_left{width: 100%;height: 380px;}}
+.align_right{position: relative; float: right; width: 50%; height: 340px;margin-bottom: 40px;}@media (max-width: 767px){.align_right{width: 100%;height: 380px; }}
+.align_left{position: relative; float: left; width: 50%; height: 340px;margin-bottom: 40px;}@media (max-width: 767px){.align_left{width: 100%;height: 380px;}}
+
+.item-box-title{color:#E12D2F; font-family:'微軟正黑體'}
+.item-box-subtitle{color:#FFC000; font-family:'微軟正黑體'; text-align:center;}
+.item-box-content{color:#ADADAD; font-family:'微軟正黑體'; }
+.item-box-content-position{width:80%; padding-left:10%;text-align:left;}
+.GainsboroGrayTextually {
+    padding: 30px;
+    color: red;
+}
+
+.GrayBarText {
+    padding: 10px;
+    color: black;
+    background: #EFEFEF;
+    border-radius: 5px;
+    display: -webkit-box;
+}
