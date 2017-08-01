@@ -256,21 +256,21 @@
             <img src="@Url.Content("../Themes/NopWired/Content/images/creditcards.gif")" style="max-width: 100%;" />
         </div>
     </div>
-    <div class="copyright">
+    @*<div class="copyright">
         <div class="footer-poweredby">
             Powered by <a href="http://www.nopcommerce.com/">nopCommerce</a>
-            @*Would you like to remove the "Powered by nopCommerce" link in the bottom of the footer?
-            Find more info here http://www.nopcommerce.com/copyrightremoval.aspx*@
+            Would you like to remove the "Powered by nopCommerce" link in the bottom of the footer?
+            Find more info here http://www.nopcommerce.com/copyrightremoval.aspx
 
             Developed by <a href="http://www.pronopcommerce.com">pro nopCommerce</a>
-            @*If you downloaded this theme for free, we appreciate if you can play the game fair by not removing the credit.
-            If you would like to remove the credit, you can purchase a commercial license from http://www.pronopcommerce.com/nopwired-free-nopcommerce-responsive-theme'*@
+            If you downloaded this theme for free, we appreciate if you can play the game fair by not removing the credit.
+            If you would like to remove the credit, you can purchase a commercial license from http://www.pronopcommerce.com/nopwired-free-nopcommerce-responsive-theme'
         </div>
         <div class="footer-disclaimer">
             @T("Content.CopyrightNotice", DateTime.Now.Year, Model.StoreName)
         </div>
         <div class="clear"></div>
-    </div>
+    </div>*@
     @if (Model.DisplayTaxShippingInfoFooter)
     {
         var inclTax = EngineContext.Current.Resolve<IWorkContext>().TaxDisplayType == TaxDisplayType.IncludingTax;

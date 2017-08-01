@@ -66,7 +66,7 @@ table {
 }
 
     table th {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 微軟正黑體,Arial, Helvetica, sans-serif;
     }
 
 hr {
@@ -94,7 +94,7 @@ input, select {
 /* OTHER RESET STYLESHEET (HTML GENERAL) */
 body {
     text-align: center;
-    font-family: arial,verdana,helvetica,sans-serif;
+    font-family: 微軟正黑體,arial,verdana,helvetica,sans-serif;
     font-size: 12px;
     background: none repeat scroll 0 0 #e0e0e0;
     color: #444;
@@ -112,7 +112,7 @@ a {
     }
 
 h1, h2, h3, h4, h5, h6, .title {
-    font-family: arial,helvetica,sans-serif;
+    font-family: 微軟正黑體,arial,helvetica,sans-serif;
     text-transform: capitalize;
 }
 
@@ -145,7 +145,7 @@ input[type="text"], input[type="password"], textarea, select {
     padding: 5px;
     vertical-align: top;
     color: #595959;
-    font-family: arial,helvetica,sans-serif;
+    font-family: 微軟正黑體,arial,helvetica,sans-serif;
 }
 
 input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
@@ -178,7 +178,7 @@ input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:f
 }
 
 .master-wrapper-main {
-    font-family: arial,verdana,helvetica,sans-serif;
+    font-family: 微軟正黑體,arial,verdana,helvetica,sans-serif;
     color: #333333;
 }
     /* one column master page */
@@ -255,7 +255,7 @@ input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:f
 
 .header-logo {
     text-align: left;
-    width: 35%;
+    width: 100%;
     float: left;
 }
 
@@ -325,7 +325,7 @@ ul.language-list {
     .header-links ul {
         padding: 0;
         margin: 0;
-        font-family: arial,helvetica,sans-serif;
+        font-family: 微軟正黑體,arial,helvetica,sans-serif;
     }
 
         .header-links ul li {
@@ -407,7 +407,7 @@ ul.language-list {
         font-size: 1em;
         color: #fff;
         text-decoration: none;
-        font-family: arial,helvetica,sans-serif;
+        font-family: 微軟正黑體,微軟正黑體,helvetica,sans-serif;
     }
 
     .header-menu .top-menu {
@@ -637,13 +637,13 @@ ul.language-list {
 }
 
 .footer-disclaimer {
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: 微軟正黑體,Helvetica,sans-serif;
     color: #ccc;
     float: right;
 }
 
 .footer-poweredby {
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: 微軟正黑體,Helvetica,sans-serif;
     color: #ccc;
     float: left;
 }
@@ -738,7 +738,7 @@ ul.language-list {
     .page-title h1, .page-title h2 {
         margin: 0;
         text-transform: capitalize;
-        font: bold 22px/1.25 Arial, Helvetica, sans-serif;
+        font: bold 22px/1.25 微軟正黑體, Helvetica, sans-serif;
     }
 
     .page-title .link-rss {
@@ -764,7 +764,7 @@ td {
 }
 
 .button-1 {
-    font: bold 11px/25px Tahoma, Verdana, Arial, sans-serif;
+    font: bold 11px/25px Tahoma, Verdana, 微軟正黑體, sans-serif;
     text-decoration: none;
     padding: 0px 10px; /*position: relative;*/
     position: static;
@@ -778,7 +778,7 @@ td {
 }
 
 .button-2 {
-    font: bold 11px/25px Tahoma, Verdana, Arial, sans-serif;
+    font: bold 11px/25px 微軟正黑體, Verdana, Arial, sans-serif;
     text-decoration: none;
     padding: 0px 10px; /*position: relative;*/
     position: static;
@@ -921,7 +921,7 @@ td {
 
 /* VALIDATION AND ERRORS */
 .message-error {
-    font-family: Verdana,Arial,sans-serif;
+    font-family: 微軟正黑體,Arial,sans-serif;
     font-size: 10px;
     font-weight: 700;
     color: red;
@@ -936,14 +936,14 @@ td {
         }
 
 .validation-summary-errors {
-    font-family: Arial,sans-serif;
+    font-family: 微軟正黑體,sans-serif;
     font-size: 11px;
     font-weight: 700;
     color: red;
 }
 
 .field-validation-error {
-    font-family: Arial,sans-serif;
+    font-family: 微軟正黑體,sans-serif;
     font-size: 11px;
     font-weight: 700;
     color: red;
@@ -1445,7 +1445,7 @@ td {
     }
 
         .order-summary-content .coupon-box .message, .order-summary-content .giftcard-box .message {
-            font-family: Verdana,Arial,sans-serif;
+            font-family: 微軟正黑體,Arial,sans-serif;
             font-size: 10px;
             font-weight: 700;
             color: red;
@@ -1734,7 +1734,7 @@ td {
         }
 
 .order-summary-content .checkout-buttons .checkout-button {
-    font: bold 15px/30px Arial,Helvetica,sans-serif;
+    font: bold 15px/30px 微軟正黑體,Helvetica,sans-serif;
 }
 
 .order-summary-content .checkout-buttons .checkout-button {
@@ -1756,7 +1756,7 @@ td {
 
 .order-summary-content .totals {
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 微軟正黑體, Helvetica, sans-serif;
     font-size: 12px;
     padding-top: 20px;
     background: url('images/bkg_cart-totals.gif') left top no-repeat;
@@ -1860,7 +1860,7 @@ td {
         border: 1px solid #2F4F4F;
         color: #FFF;
         background-color: #2E4d7B;
-        font-family: Arial,Sans-Serif;
+        font-family: 微軟正黑體,Sans-Serif;
         font-size: 12px;
         font-weight: 700;
         padding: 5px;
@@ -2150,7 +2150,7 @@ td {
                 padding: 10px 20px;
                 zoom: 1;
                 background: #f88613;
-                font: normal 100% 'Arial', sans-serif;
+                font: normal 100% '微軟正黑體', sans-serif;
                 text-transform: capitalize;
             }
 
@@ -2160,7 +2160,7 @@ td {
                 padding: 10px 20px;
                 zoom: 1;
                 background: #e4e4e4;
-                font: normal 100% 'Arial', sans-serif;
+                font: normal 100% '微軟正黑體', sans-serif;
                 text-transform: capitalize;
             }
 
@@ -2230,14 +2230,14 @@ td {
             float: left;
             padding: 0 4px;
             margin: 0 5px 0 0;
-            font: bold 11px/20px arial,helvetica,sans-serif;
+            font: bold 11px/20px 微軟正黑體,helvetica,sans-serif;
             color: #797979;
         }
 
         .opc .step-title h2 {
             float: left;
             margin: 0;
-            font: bold 13px/20px Arial,Helvetica,sans-serif;
+            font: bold 13px/20px 微軟正黑體,Helvetica,sans-serif;
             color: #797979;
             text-transform: capitalize;
         }
@@ -2997,7 +2997,7 @@ td {
             line-height: 1.3em;
             overflow: hidden;
             font-weight: 700;
-            font-family: arial,helvetica,sans-serif;
+            font-family: 微軟正黑體,helvetica,sans-serif;
             text-transform: uppercase;
             margin: 10px 0 0;
             font-size: 12px;
@@ -3029,7 +3029,7 @@ td {
 
     .price-range-filter .remove-filter {
         padding-top: 5px;
-        font-family: arial,helvetica,sans-serif;
+        font-family: 微軟正黑體,helvetica,sans-serif;
     }
 
         .price-range-filter .remove-filter a {
@@ -3128,7 +3128,7 @@ td {
         /*zoom: 1;*/
         padding: 5px;
         margin: 0;
-        font-family: Arial,Helvetica,sans-serif;
+        font-family: 微軟正黑體,Helvetica,sans-serif;
         text-transform: capitalize;
         background: #f1f1f1;
     }
@@ -3452,7 +3452,7 @@ td {
         }
 
     .news-item-page .result {
-        font-family: Verdana,Arial,sans-serif;
+        font-family: 微軟正黑體,Arial,sans-serif;
         font-size: 10px;
         font-weight: 700;
         color: red;
@@ -3699,7 +3699,7 @@ td {
             }
 
     .blogpost-page .result {
-        font-family: Verdana,Arial,sans-serif;
+        font-family: 微軟正黑體,Arial,sans-serif;
         font-size: 10px;
         font-weight: 700;
         color: red;
@@ -4003,7 +4003,7 @@ td {
     }
 
     .password-recovery-page .result {
-        font-family: Verdana,Arial,sans-serif;
+        font-family: 微軟正黑體,Arial,sans-serif;
         font-size: 10px;
         font-weight: 700;
         color: red;
@@ -4093,12 +4093,12 @@ td {
 
 
 /* CUSTOMER ACCOUNT PAGES */
-   .account-page .result {
-        font-family: Verdana,Arial,sans-serif;
-        font-size: 10px;
-        font-weight: 700;
-        color: red;
-    }
+.account-page .result {
+    font-family: 微軟正黑體,Arial,sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: red;
+}
 
     .account-page .page-title {
         margin-bottom: 20px;
@@ -4410,7 +4410,7 @@ td {
 }
 
 .product-details-page .short-description h3 {
-    font: bold 12px/1.25 Arial, Helvetica, sans-serif;
+    font: bold 12px/1.25 微軟正黑體, Helvetica, sans-serif;
     margin-bottom: 5px;
 }
 
@@ -4510,7 +4510,7 @@ td {
 .product-details-page .variant-name {
     color: #333333;
     font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 微軟正黑體, Helvetica, sans-serif;
     text-transform: capitalize;
     font-weight: 700;
     margin-bottom: .3em;
@@ -4535,7 +4535,7 @@ td {
         border: 1px solid #B5B5B5;
         color: #444;
         cursor: pointer;
-        font-family: arial,sans-serif !important;
+        font-family: 微軟正黑體,sans-serif !important;
         font-size: 100%;
         !important;
         font-size-adjust: none !important;
@@ -4962,7 +4962,7 @@ td {
     color: #555;
     display: block;
     float: left;
-    font-family: Arial;
+    font-family: 微軟正黑體;
     font-size: 10px;
     font-weight: 700;
     margin: 2px 0 2px 2px;
@@ -5949,7 +5949,7 @@ pre {
     border: 0 !important;
     padding: 0 !important;
     margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 微軟正黑體, Helvetica, sans-serif;
 }
 
     #productcollateraltab > .tab-content {
@@ -6044,7 +6044,8 @@ pre {
 .item-box-content{color:#ADADAD; font-family:'微軟正黑體'; }
 .item-box-content-position{width:80%; padding-left:10%;text-align:left;}
 .GainsboroGrayTextually {
-    padding: 30px;
+    /*padding: 30px;*/
+    padding: 30px 0 30px 0;
     color: red;
 }
 
@@ -6052,6 +6053,6 @@ pre {
     padding: 10px;
     color: black;
     background: #EFEFEF;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     display: -webkit-box;
 }

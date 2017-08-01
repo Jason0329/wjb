@@ -42,6 +42,8 @@
 <ul class="top-menu">
     @Html.Widget("header_menu_before")
     <li><a href="@Url.RouteUrl("HomePage")">@T("HomePage")</a></li>
+    <li><a href="/事業部">@T("傳動元件事業部")</a></li>
+    <li><a href="/特殊軸承生產製造">@T("特殊軸承生產製造")</a></li>
      @*<li><a href="@Url.RouteUrl("HomePage")">公司簡介</a></li>*@
       @* <li><a href="http://wjb.xdplayer.com.tw/%E4%BA%8B%E6%A5%AD%E9%83%A8">營業項目</a></li>*@
     @foreach (var topic in Model.Topics)
