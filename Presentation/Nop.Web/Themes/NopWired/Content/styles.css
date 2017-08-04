@@ -680,6 +680,7 @@ ul.language-list {
         float: left;
         text-align: left;
         width: 20%;
+        padding-left: 10%;
     }
 
         .footer-menu-wrapper .column h3 {

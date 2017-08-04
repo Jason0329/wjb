@@ -17,9 +17,9 @@
                 {
                     <li><a href="@Url.RouteUrl("Sitemap")">@T("Sitemap")</a></li>
                 }
-                <li><a href="@Url.RouteUrl("Topic", new {SeName = Html.GetTopicSeName("shippinginfo") })">@T("ShippingReturns")</a></li>
+                @*<li><a href="@Url.RouteUrl("Topic", new {SeName = Html.GetTopicSeName("shippinginfo") })">@T("ShippingReturns")</a></li>
                 <li><a href="@Url.RouteUrl("Topic", new {SeName = Html.GetTopicSeName("privacyinfo") })">@T("PrivacyNotice")</a></li>
-                <li><a href="@Url.RouteUrl("Topic", new {SeName = Html.GetTopicSeName("conditionsofuse") })">@T("ConditionsOfUse")</a></li>
+                <li><a href="@Url.RouteUrl("Topic", new {SeName = Html.GetTopicSeName("conditionsofuse") })">@T("ConditionsOfUse")</a></li>*@
                 <li><a href="@Url.RouteUrl("Topic", new {SeName = Html.GetTopicSeName("aboutus") })">@T("AboutUs")</a></li>
                 <li><a href="@Url.RouteUrl("ContactUs")">@T("ContactUs")</a></li>
             </ul>
@@ -37,9 +37,9 @@
                 {
                     <li><a href="@Url.RouteUrl("Sitemap")">@T("Sitemap")</a></li>
                 }
-                <li><a href="@Url.RouteUrl("Topic", new {SeName = Html.GetTopicSeName("shippinginfo") })">@T("ShippingReturns")</a></li>
+                @*<li><a href="@Url.RouteUrl("Topic", new {SeName = Html.GetTopicSeName("shippinginfo") })">@T("ShippingReturns")</a></li>
                 <li><a href="@Url.RouteUrl("Topic", new {SeName = Html.GetTopicSeName("privacyinfo") })">@T("PrivacyNotice")</a></li>
-                <li><a href="@Url.RouteUrl("Topic", new {SeName = Html.GetTopicSeName("conditionsofuse") })">@T("ConditionsOfUse")</a></li>
+                <li><a href="@Url.RouteUrl("Topic", new {SeName = Html.GetTopicSeName("conditionsofuse") })">@T("ConditionsOfUse")</a></li>*@
                 <li><a href="@Url.RouteUrl("Topic", new {SeName = Html.GetTopicSeName("aboutus") })">@T("AboutUs")</a></li>
                 <li><a href="@Url.RouteUrl("ContactUs")">@T("ContactUs")</a></li>
             </ul>
@@ -56,8 +56,10 @@
         <div class="column customer-service">
             <h3>@T("Footer.CustomerService")</h3>
             <ul>
-                <li><a href="@Url.RouteUrl("ProductSearch")">@T("Search")</a> </li>
-                @if (Model.NewsEnabled)
+                <li><a href="/事業部">@T("傳動元件事業部")</a> </li>
+                <li><a href="/特殊軸承生產製造">@T("特殊軸承生產製造")</a></li>
+
+                @*@if (Model.NewsEnabled)
                 {
                     <li><a href="@Url.RouteUrl("NewsArchive")">@T("News")</a></li>
                 }
@@ -80,7 +82,7 @@
                 @if (Model.RecentlyAddedProductsEnabled)
                 {
                     <li><a href="@Url.RouteUrl("RecentlyAddedProducts")">@T("Products.NewProducts")</a></li>
-                }
+                }*@
             </ul>
         </div>
         @if (supportResponsive)
@@ -92,8 +94,9 @@
                 </a>
             </div>
             <ul class="footer-menu-2">
-                <li><a href="@Url.RouteUrl("ProductSearch")">@T("Search")</a> </li>
-                @if (Model.NewsEnabled)
+                <li><a href="/事業部">@T("傳動元件事業部")</a> </li>
+                <li><a href="/特殊軸承生產製造">@T("特殊軸承生產製造")</a></li>
+                @*@if (Model.NewsEnabled)
                 {
                     <li><a href="@Url.RouteUrl("NewsArchive")">@T("News")</a></li>
                 }
@@ -116,7 +119,7 @@
                 @if (Model.RecentlyAddedProductsEnabled)
                 {
                     <li><a href="@Url.RouteUrl("RecentlyAddedProducts")">@T("Products.NewProducts")</a></li>
-                }
+                }*@
             </ul>
             <script type="text/javascript">
                 $('a', $('#footer-menu-button-2')).toggle(function () {
@@ -132,7 +135,7 @@
             <h3>@T("Footer.MyAccount")</h3>
             <ul>
                 <li><a href="@Url.RouteUrl("CustomerInfo")" class="account">@T("Account.MyAccount")</a></li>
-                @if (!Model.HideOrders)
+                @*@if (!Model.HideOrders)
                 {
                     <li><a href="@Url.RouteUrl("CustomerOrders")">@T("Account.CustomerOrders")</a></li>
                 }
@@ -147,7 +150,7 @@
                 @if (Model.WishlistEnabled)
                 {
                     <li><a href="@Url.RouteUrl("Wishlist")" class="ico-wishlist">@T("Wishlist")</a></li>
-                }
+                }*@
             </ul>
         </div>
         @if (supportResponsive)
@@ -160,7 +163,7 @@
             </div>
             <ul class="footer-menu-3">
                 <li><a href="@Url.RouteUrl("CustomerInfo")" class="account">@T("Account.MyAccount")</a></li>
-                @if (!Model.HideOrders)
+                @*@if (!Model.HideOrders)
                 {
                     <li><a href="@Url.RouteUrl("CustomerOrders")">@T("Account.CustomerOrders")</a></li>
                 }
@@ -175,7 +178,7 @@
                 @if (Model.WishlistEnabled)
                 {
                     <li><a href="@Url.RouteUrl("Wishlist")" class="ico-wishlist">@T("Wishlist")</a></li>
-                }
+                }*@
             </ul>
             <script type="text/javascript">
                 $('a', $('#footer-menu-button-3')).toggle(function () {
@@ -187,7 +190,7 @@
                 );
             </script>
         }
-        <div class="column follow-us">
+        @*<div class="column follow-us">
             <h3>@T("Footer.FollowUs")</h3>
             <ul>
                 @if (!string.IsNullOrEmpty(Model.FacebookLink))
@@ -251,10 +254,10 @@
                     }
                 );
             </script>
-        }
-        <div class="column last">
+        }*@
+        @*<div class="column last">
             <img src="@Url.Content("../Themes/NopWired/Content/images/creditcards.gif")" style="max-width: 100%;" />
-        </div>
+        </div>*@
     </div>
     @*<div class="copyright">
         <div class="footer-poweredby">
@@ -271,13 +274,13 @@
         </div>
         <div class="clear"></div>
     </div>*@
-    @if (Model.DisplayTaxShippingInfoFooter)
+    @*@if (Model.DisplayTaxShippingInfoFooter)
     {
         var inclTax = EngineContext.Current.Resolve<IWorkContext>().TaxDisplayType == TaxDisplayType.IncludingTax;
         <div class="footer-tax-shipping">
             @T(inclTax ? "Footer.TaxShipping.InclTax" : "Footer.TaxShipping.ExclTax", Url.RouteUrl("Topic", new { SeName = Html.GetTopicSeName("shippinginfo") }))
         </div>
-    }
+    }*@
     <div class="footer-store-theme">
         @Html.Action("StoreThemeSelector", "Common")
     </div>
