@@ -185,7 +185,7 @@ input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:f
     .master-wrapper-main .center-1 {
         float: left;
         width: 930px;
-        min-height: 400px;
+        /*min-height: 400px;*/
         padding: 10px 0;
         background: #FFF;
         display: inline;
